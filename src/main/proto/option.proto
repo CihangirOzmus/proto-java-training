@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package example.option;
+
+option java_package = "com.example.option"; // to put in another folder
+option java_multiple_files = true; //creates file per class. therefore it usage is simpler
+
+message AnotherDummy {
+  uint32 id = 1;
+}
